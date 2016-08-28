@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/studentRollNo"
+        android:text="RollNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/studentNameTV"
+        android:text="Name"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/studentRollNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Male"
+        android:layout_below="@+id/studentNameTV"
+        android:id="@+id/studentGender"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/studentDOB"
+        android:text="DOB"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/studentNameTV"
+        android:layout_toRightOf="@+id/studentGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
